@@ -16,7 +16,7 @@ public class Menu {
             System.out.println("4. do-while");
             System.out.println("5. for");
 
-            choice = (char) System.in.read();
+            choice = (char) System.in.read(); // System.in.read() returns an "int" value
         } while (choice < '1' || choice > '5');
 
         switch (choice) {

@@ -1,14 +1,21 @@
-class Test {
-    // This program is for testing doubtful codes
-    public static void main(String args[]){
-        outer: for(int i=0;i<10;i++){
-            for(int j=0;j<10;j++){
-                if(j>i){
-                    System.out.println();
-                    continue outer;
-                }
-                System.out.print(" "+(i*j));
-            }
-        }
-    }    
+import java.util.Scanner;
+
+class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int i = scan.nextInt();
+        double d = scan.nextDouble();
+        String s = "";
+
+        boolean a = scan.hasNext();
+        
+        
+
+        scan.close();
+
+        System.out.println("String: " + s);
+        System.out.println("Double: " + d);
+        System.out.println("Int: " + i);
+    }
 }
