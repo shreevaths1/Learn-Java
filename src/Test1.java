@@ -1,21 +1,8 @@
-import java.util.Scanner;
-
-class Solution {
-
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
-        int i = scan.nextInt();
-        double d = scan.nextDouble();
-        String s = "";
-
-        boolean a = scan.hasNext();
-        
-        
-
-        scan.close();
-
-        System.out.println("String: " + s);
-        System.out.println("Double: " + d);
-        System.out.println("Int: " + i);
-    }
+class Test1{
+	public static void main(String args[]) {
+		String s1 = "Hello.",s2="Jolly Launcher.",s3="Nexa";
+		System.out.println("s1.length(): "+s1.length());
+		System.out.println("s2.equals(\"Hello\"): "+s2.equals("Hello"));
+		System.out.println("s3.charAt(3): "+s3.charAt(3));
+	}
 }
