@@ -1,7 +1,2 @@
-.vscode/
-Java_The_Complete_Reference_11th_edition.pdf
-UF.txt
-ImpPrograms.txt
-*.class
-/bin/
 bin/
+ImpPrograms.txt
