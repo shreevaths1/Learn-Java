@@ -21,7 +21,7 @@ class Box7 {
      * width = w;
      * height = h;
      * depth = d;
-     * 
+     *
      * }
      */
 

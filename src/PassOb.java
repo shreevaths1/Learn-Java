@@ -7,7 +7,7 @@ class Test {
     }
 
     boolean equalTo(Test ob) {
-        if ((a == ob.a) && (b == ob.b)) {
+        if ((this.a == ob.a) && (this.b == ob.b)) {
             return true;
         } else {
             return false;

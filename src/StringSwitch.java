@@ -14,7 +14,7 @@ public class StringSwitch {
             default:
                 System.out.println("no match.");
                 break;
-        
+
         }
     }
 }

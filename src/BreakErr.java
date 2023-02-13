@@ -8,8 +8,8 @@ public class BreakErr {
          * The below code generates compile time
          * error,since to break out block 'one' it
          * must enclose the break statement.
-         * 
-         * 
+         *
+         *
          * for(int j=0;j<100;j++){
          * if(j==10){
          * break one;

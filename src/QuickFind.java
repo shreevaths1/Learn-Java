@@ -41,8 +41,8 @@ public class QuickFind {
     }
 
     public void printarray() {
-        for (int i = 0; i < id.length; i++) {
-            System.out.print(id[i] + " ");
+        for (int element : id) {
+            System.out.print(element + " ");
         }
     }
 }

@@ -23,5 +23,5 @@ public class FindPrime {
         else{
             System.out.println("Not Prime.");
         }
-    }    
+    }
 }

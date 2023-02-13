@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 /*This program has a downside:
- * if input is less than 1 or 
+ * if input is less than 1 or
  * greater than 12, then you get
  * ArrayIndexOutOfBounds Exception.
- * 
+ *
  * Try to improve upon this.
  */
 

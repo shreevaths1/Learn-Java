@@ -3,8 +3,8 @@ class Average {
         double nums[] = { 10.1, 11.2, 12.3, 13.4, 14.5 };
         double result = 0;
 
-        for (int i = 0; i < nums.length; i++) {
-            result = result + nums[i];
+        for (double num : nums) {
+            result = result + num;
         }
         System.out.println("Average is " + (float)(result / 5));
     }
