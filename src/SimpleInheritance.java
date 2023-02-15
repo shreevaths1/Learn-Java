@@ -1,20 +1,20 @@
 class A {
 	int i, j;
-	
+
 	void showij() {
-		System.out.println("i and j: "+i+" "+j);
+		System.out.println("i and j: " + i + " " + j);
 	}
 }
 
-class B extends A{
+class B extends A {
 	int k;
-	
+
 	void showk() {
-		System.out.println("k: "+k);
+		System.out.println("k: " + k);
 	}
-	
+
 	void sum() {
-		System.out.println("i + j + k = "+(i+j+k));
+		System.out.println("i + j + k = " + (i + j + k));
 	}
 }
 
@@ -26,7 +26,7 @@ class SimpleInheritance {
 		superOb.j = 20;
 		superOb.showij();
 		System.out.println();
-		
+
 		B subOb = new B();
 		System.out.println("Contents of Sub Class B:");
 		subOb.i = 7;
@@ -35,9 +35,13 @@ class SimpleInheritance {
 		subOb.showij();
 		subOb.showk();
 		System.out.println();
-		
+
 		System.out.print("Sum of i , j , and k: ");
 		subOb.sum();
-		
+
+		/* Super class has no knowledge of child class' members */
+		// superOb.sum();
+		// superOb.showk();
+
 	}
 }

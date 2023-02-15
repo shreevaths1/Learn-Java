@@ -14,7 +14,7 @@ class B2 extends A2 {
 	int i;
 
 	void set(int a, int b) {
-		super.i = a;
+		super.i = a; // instance variable 'i' of IMMEDIATE superclass A2
 		i = b;
 	}
 
