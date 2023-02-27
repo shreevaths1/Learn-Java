@@ -19,7 +19,7 @@ class Overload2 {
         int i = 88;
         ob.test();
         ob.test(10, 20);
-        ob.test(i);
+        ob.test(i); //automatic type conversion 
         ob.test(123.2);
     }
 }

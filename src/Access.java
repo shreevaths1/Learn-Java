@@ -3,11 +3,11 @@ class Access {
 		B1 subOb = new B1();
 		subOb.setij(4, 5);
 		subOb.sum();
-		
+
 		A1 superOb = new A1();
-		superOb.setij(4,5);
-		
-		//System.out.println("superOb.j = "+superOb.j);
+		superOb.setij(4, 5);
+
+		// System.out.println("superOb.j = "+superOb.j);
 		superOb.showij();
 	}
 }
@@ -20,9 +20,9 @@ class A1 {
 		this.i = i;
 		this.j = j;
 	}
-	
+
 	void showij() {
-		System.out.println("i and j = "+i+" "+j);
+		System.out.println("i and j = " + i + " " + j);
 	}
 }
 

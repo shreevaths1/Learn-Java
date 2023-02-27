@@ -12,9 +12,10 @@ public class Switch {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a month by number: ");
-        sc.close();
+        
 
         int month = sc.nextInt();
+        sc.close();
         String season;
 
         String months[] = { "January", "February", "March", "April", "May", "June", "July", "August", "September",

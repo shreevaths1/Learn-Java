@@ -24,5 +24,9 @@ class Array {
         for (int i = 0; i < 12; i++) {
             System.out.print(month_days[i] + "\t");
         }
+        
+        System.out.println();
+        System.out.print('\t'+"he");
+        System.out.print(false);
     }
 }
