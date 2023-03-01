@@ -21,7 +21,9 @@ class MyClass implements B3{
 
 class IFExtend {
 	public static void main(String args[]) {
-		MyClass c = new MyClass();
+		B3 c = new MyClass();
+		// it depends on type of reference, not
+		// on the type of object.
 		c.meth1();
 		c.meth2();
 		c.meth3();

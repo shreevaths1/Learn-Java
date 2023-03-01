@@ -1,10 +1,11 @@
+
 interface CallBack {
 	void callback(int param);
 }
 
 class Client implements CallBack {
 	public void callback(int param) {
-		System.out.println("callme() called with " + param);
+		System.out.println("callback() called with " + param);
 	}
 
 	void nonIfaceMeth() {
@@ -20,6 +21,7 @@ class AnotherClient implements CallBack {
 	}
 }
 
+
 abstract class Incomplete implements CallBack{
 	void show() {
 		System.out.print("This is Incomplete class. ");
@@ -27,7 +29,14 @@ abstract class Incomplete implements CallBack{
 	}
 }
 
-class TestIface {
+class Complete extends Incomplete{
+	public void callback(int param) {
+		System.out.print("This is A's implementation ");
+		System.out.println("of callback().");
+	}
+}
+
+class TestIface{
 	public static void main(String args[]) {
 		Client c = new Client();
 		c.callback(42);
@@ -45,6 +54,16 @@ class TestIface {
 		
 		c1 = new AnotherClient();
 		c1.callback(4);
+		
+		System.out.println();
+		
+		c1 = new Complete();
+		c1.callback(78);
+		
+		System.out.println();
+		
+		Complete a = new Complete();
+		a.show();
 		
 	}
 }
